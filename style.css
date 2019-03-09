@@ -1,0 +1,57 @@
+html {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    background: url(img/bg1.jpg) no-repeat center center fixed;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container {
+    background: #fff;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.725);
+    color: black;
+    font-family: "Times";
+    font-size: 16px;
+    line-height: ;
+    margin: auto;
+    max-width: 2800px;
+    padding: 2em 2em 4em;
+    text-align:center;
+}
+
+footer {
+    font-size: 2.5em;
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+h2 {
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 2.75em;
+    font-style: normal;
+}
+
+p {
+    font-size: 2.5em;
+}
+
+.box {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.main {
+margin-top: 100px;
+}
+
+.footer {
+    margin-top: 300px;
+    max-width: 4000px;
+}
