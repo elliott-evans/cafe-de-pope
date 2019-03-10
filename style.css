@@ -16,9 +16,19 @@ html {
     font-family: "Times";
     font-size: 16px;
     margin: auto;
-    max-width: 74%;
+    max-width: 85%;
     padding: 2em 2em 4em;
     text-align:center;
+    display: grid;
+	grid-template-columns: auto 180px;
+	grid-template-rows: auto;
+	grid-template-areas:
+		"header header"
+		"menu menu"
+		"content side"
+		"content1 side"
+		"content2 side"
+		"footer footer";
 }
 
 footer {
@@ -56,7 +66,7 @@ a:hover {
     color: #848484;
 }
 
-.box {
+.top {
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -67,8 +77,26 @@ a:hover {
     border-width: thin;
     padding: 20px;
     display: block;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-right: 4em;
 }
 
 .footer {
     margin-top: 300px;
+}
+
+.side {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-style: solid;
+    border-width: thin;
+    grid-gap: 5px;
+    width: 180px;
+    float: right;
+    margin-left: 73.5%;
+    margin-top: 12.3%;
+    position: absolute;
+    text-align: left;
+    padding: 7px;
 }
