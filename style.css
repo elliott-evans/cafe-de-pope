@@ -9,14 +9,14 @@ html {
 
 .container {
     background: #fff;
-    box-shadow: 0 0 200px rgba(0, 0, 0, 0.5);
-    background-color: rgba(255, 255, 255, 0.725);
+    box-shadow: 0 0 200px rgba(0, 0, 0, .5);
+    background-color: rgba(255, 255, 255, 0.8);
     color: black;
     font-family: "Times";
     font-size: 16px;
     line-height: ;
     margin: auto;
-    max-width: 2800px;
+    max-width: 74%;
     padding: 2em 2em 4em;
     text-align:center;
 }
